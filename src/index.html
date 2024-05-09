@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="validator">
+    <div class="validator__body">
+      <div class="validator__content">
+        <div class="validator__tittle">
+          <h1>Credit Card Validator</h1>
+        </div>
+        <div class="validator__widget widget">
+          <ul class="widget__list">
+             <div class="widget__item_absolute">
+               <li class="widget__item visa"><span class="card__tittle visually_hidden">Visa</span></li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item mastercard"><span class="card__tittle visually_hidden">MasterCard</span>
+               </li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item amex"><span class="card__tittle visually_hidden">American Express</span></li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item discover"><span class="card__tittle visually_hidden">Discover</span></li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item jcb"><span class="card__tittle visually_hidden">JCB</span></li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item diners"><span class="card__tittle visually_hidden">Dinners Club</span></li>
+             </div>
+             <div class="widget__item_absolute">
+               <li class="widget__item mir"><span class="card__tittle visually_hidden">MIR</span></li>
+             </div>
+           </ul>
+          <form class="widget__form">
+            <div class="widget__row">
+              <input class="input" type="number" placeholder="Enter the card number">
+              <button class="button" type="submit">Click to Validate</button>
+            </div>
+            <div class="message d_none">
+              <p class="text"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

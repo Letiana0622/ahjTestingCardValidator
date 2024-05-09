@@ -1,0 +1,170 @@
+:root {
+  --fontFamily: sans-serif;
+  --minWidth: 100px;
+  --brdRadius: 8px;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.d_none {
+  display: none;
+}
+
+.validator {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.validator__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.validator__content {
+  /* width: 50%; */
+  border: 2px solid whitesmoke;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: var(--brdRadius);
+}
+.validator__tittle {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.widget__list {
+  display: flex;
+  position: relative;
+}
+
+.widget__item_absolute {
+  position: relative;
+  width: 100px;
+  height: 70px;
+}
+
+.widget__item {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: all 0.5s ease 0s;
+}
+
+.widget__item_absolute:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.amex {
+  background-image: url('../img/amex.svg');
+}
+
+.diners {
+  background-image: url('../img/diners.svg');
+}
+
+.discover {
+  background-image: url('../img/discover.svg');
+}
+
+.jcb {
+  background-image: url('../img/jcb.svg');
+}
+
+.mir {
+  background-image: url('../img/mir.svg');
+}
+
+.visa {
+  background-image: url('../img/visa.svg');
+}
+
+.mastercard {
+  background-image: url('../img/master.svg');
+}
+
+.widget__row {
+  display: flex;
+}
+
+.widget__row button {
+  border: 1px solid whitesmoke;
+  padding: 15px 30px;
+  border-radius: var(--brdRadius);
+  top: 0;
+  font-size: inherit;
+  background-color: rgba(65, 210, 89, 0.848);
+  color: #fff;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  margin-left: 10px;
+}
+
+.widget__row button:hover {
+  background-color: rgba(65, 210, 89, 0.848);
+  transition: all 0.5s ease 0s;
+}
+
+.widget__form {
+  margin-top: 30px;
+}
+
+.input {
+  border: 1px solid whitesmoke;
+  padding: 13px 5px;
+  border-radius: var(--brdRadius);
+  flex: 1;
+  font-size: 20px;
+}
+
+.bgValid {
+  background-color: rgba(57, 182, 78, 0.25);
+}
+
+.bgInvalid {
+  background-color: rgba(255, 0, 0, 0.25);
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.message {
+  margin-top: 10px;
+  padding: 20px;
+  background-color:whitesmoke;
+  border-radius: var(--brdRadius);
+  border: 1px solid whitesmoke
+}
+
+.colorValid {
+  color: rgba(109, 233, 130, 0.848);
+}
+.colorInvalid {
+  color: rgba(221, 96, 96, 0.72);
+}
+
+
+
